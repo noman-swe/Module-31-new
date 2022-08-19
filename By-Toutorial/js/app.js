@@ -1,9 +1,9 @@
 document.getElementById('border-btn').addEventListener('click', function () {
     addBorder();
 });
-// 
+
 document.getElementById('add-friend').addEventListener('click', function () {
-    // addFriend();
+  
     const friendsContainer = document.getElementById('friend-container');
     const friend = document.createElement('div');
     friend.classList.add('friend');
@@ -11,8 +11,6 @@ document.getElementById('add-friend').addEventListener('click', function () {
     <p>Lorem ipsum dolor sit.</p>`;
     friendsContainer.appendChild(friend);
 });
-
-
 document.getElementById('background-btn').addEventListener('click', function () {
     const friends = document.getElementsByClassName('friend');
     for(const friend of friends){
