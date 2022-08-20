@@ -1,3 +1,4 @@
+/* 
 // function declaretion system
 function add1 (num1, num2){
     return num1 + num2;
@@ -25,3 +26,6 @@ console.log(sum3);
 const add4 = (num1, num2) => num1 + num2;
 const sum4 = add4(2, 5);
 console.log(sum4);
+ */
+
+// More arrow function use.....
