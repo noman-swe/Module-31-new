@@ -29,3 +29,6 @@ console.log(sum4);
  */
 
 // More arrow function use.....
+const newArrow = () => 3+3;
+const reslts = newArrow();
+console.log(reslts);
